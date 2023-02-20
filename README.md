@@ -104,15 +104,21 @@ Ordered by date of work:
 | | | ~~[Django](https://docs.djangoproject.com/)~~ (haven't used in my projects, *I don't like this framework*) |
 | | | [pytest](https://docs.pytest.org/), [unittest](https://docs.python.org/3/library/unittest.html) |
 | | | TDD (Test-Driven Development) approach to software development. |
-| ★★★☆☆ | [CallBot](https://github.com/andrsj/call_bot) | Simple [Discord](https://discord.com/) bot that handle phone book for administrator of the server |
-| ★★★★☆ | [Mafia Club Rating system](https://github.com/andrsj/mafia_club) | Automotive project which handle [Google Sheets](https://docs.google.com/spreadsheets/) tables with prepared game on the [Google Drive](https://drive.google.com/) |
+| ★★★☆☆ | $ [CallBot](https://github.com/andrsj/call_bot) | Simple [Discord](https://discord.com/) bot that handle phone book for administrator of the server |
+| ★★★★☆ | $ [Mafia Club Rating system](https://github.com/andrsj/mafia_club) | Automotive project which handle [Google Sheets](https://docs.google.com/spreadsheets/) tables with prepared game on the [Google Drive](https://drive.google.com/) |
 | ★★★☆☆ | [Test Task](https://github.com/andrsj/task_elevator) | Small test task for Python Junior developer using best practices |
-| ★★★★★ | **NDA Projects** | Golang development in [Luxoft Solution company](https://www.luxoft.com/) |
+| ★★★★★ | $ **NDA Projects** | Golang development in [Luxoft Solution company](https://www.luxoft.com/) |
+| | | Writting different web applications with libraries: |
+| | | Gin, Echo, Chi, FastHTTP |
+| | | Gorm, Redis |
+| | | Testify, Gingko |
 | ★★☆☆☆ | Test mentor code review | *links below open the PR with my comments*: |
 | | | [Task 1](https://github.com/andrsj/my_test_task1/pull/1) * small task (general Python core) |
 | | | [Task 2](https://github.com/andrsj/my_test_task2/pull/1) * small task (general Python core) |
 | | | [Task 3](https://github.com/andrsj/my_test_task3/pull/1) * TODO project on [Django](https://docs.djangoproject.com/) |
 | ★★★★☆ | [Golang CRUD example](https://github.com/andrsj/go_anime_crud) | Small project that realize CRUD in Golang language using different modern technology |
+
+> $ sign informs that it was a commercial project/projects
 
 ___
 
