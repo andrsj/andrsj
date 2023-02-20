@@ -31,6 +31,7 @@ I'm Go, Python developer with experience in building web applications.
     * [Golang developing](#golang-developing)
     * [Others tools](#others-tools)
     * [Settings](#settings)
+    * [Tasks](#tasks)
 
 ## Skills
 
@@ -66,12 +67,13 @@ Alembic | Alembic is a lightweight database migration tool for usage with SQLAlc
 ### Other tools
 
 * Databases:
-  * [PostgreSQL](https://www.postgresql.org/) * Open source relational database management system.
-  * [MySQL](https://www.mysql.com/) * Popular open-source relational database management system.
-  * [Redis](https://redis.io/) * In-memory data structure store, used as a database, cache, and message broker.
+  * [PostgreSQL](https://www.postgresql.org/) - Open source relational database management system.
+  * [MySQL](https://www.mysql.com/) - Popular open-source relational database management system.
+  * [Redis](https://redis.io/) - In-memory data structure store, used as a database, cache, and message broker.
+  * [SQLite](https://www.sqlite.org/docs.html) - popular lightweight and serverless relational database management system.
 * Other tools:
-  * [Docker](https://www.docker.com/) * A platform for developing, shipping, and running applications using container technology.
-  * [Git](https://git-scm.com/) * Free and open source distributed version control system.
+  * [Docker](https://www.docker.com/) - A platform for developing, shipping, and running applications using container technology.
+  * [Git](https://git-scm.com/) - Free and open source distributed version control system.
 
 ### TODO to learn / to use
 
@@ -159,8 +161,8 @@ List of my extension:
 
 ### Others tools
 
-Name | Description | Rating from VS Code Market
----- | ----------- | --------------------------
+Name | Description | Rating from "VS Code" Market
+---- | ----------- | ----------------------------
 DavidAnson.vscode-markdownlint | Markdown linting and style checking for VS Code | 4.9 (394 ratings)
 esbenp.prettier-vscode | Code formatter using Prettier | 4.9 (3,836 ratings)
 humao.rest-client | REST client | 4.8 (3,704 ratings)
@@ -184,3 +186,12 @@ yzhang.markdown-all-in-one | All-in-one Markdown extension | 4.6 (2,273 ratings)
 * Save the `settings.json` file by pressing `Ctrl + S` on Windows or `Cmd + S` on Mac.
 * Close the `settings.json` file.
 * Restart VS Code to apply the new settings or Developer: Reload Window from Command Palette
+
+### Tasks
+
+* Open VS Code
+* Press `Ctrl + Shift + P` on Windows or `Cmd + Shift + P` on Mac to open the Command Palette.
+* Choose `"Tasks: Open User Tasks"` in the Command Palette and select it. This will open the `tasks.json` file.
+* Paste code from [`tasks.json`](./tasks.json) file.
+* Save the `tasks.json` file by pressing `Ctrl + S` on Windows or `Cmd + S` on Mac.
+* Close the `tasks.json` file.
