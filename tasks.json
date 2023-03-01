@@ -23,8 +23,8 @@
                 "-x",
                 "-v",
                 "-o",
-                "${workspaceFolder}",
-                "${workspaceFolder}\\cmd"
+                "${workspaceFolder}/build",
+                "${workspaceFolder}/cmd"
             ],
             "problemMatcher": "$go"
         },

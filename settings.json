@@ -3,7 +3,8 @@
     "[go]": {
         // Automatically organize imports on save
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
+            "source.organizeImports": true,
+            "source.fixAll": false
         },
         // Automatically format code on save
         "editor.formatOnSave": true,
@@ -11,6 +12,7 @@
         "editor.snippetSuggestions": "inline"
     },
     // Editor settings
+    "editor.formatOnSaveMode": "file",
     "editor.accessibilitySupport": "off", // Disable editor accessibility support
     "editor.bracketPairColorization.enabled": true, // Enable colorization of matching brackets
     "editor.formatOnSave": true, // Automatically format code on save
@@ -74,11 +76,10 @@
             "shadow": true, // Detect shadowed variables
             "unusedparams": true, // Detect unused parameters
             "unusedvariable": true, // Detect unused variables
-            "unusedwrite": true, // Detect unused assignments
+            "unusedwrite": true // Detect unused assignments
         },
         "ui.diagnostic.staticcheck": true, // Use the staticcheck analyzer
-        "ui.documentation.linkTarget": "godoc.org", // Use godoc.org as the link target for documentation
-        "ui.navigation.importShortcut": "Definition", // Use "Definition" as the import shortcut
+        "ui.navigation.importShortcut": "Definition" // Use "Definition" as the import shortcut
     },
     "markdown.extension.bold.indicator": "**", // Use "**" as the bold indicator for Markdown
     "markdown.extension.italic.indicator": "*", // Use "*" as the italic indicator for Markdown
@@ -112,7 +113,5 @@
     "workbench.editor.enablePreview": false, // Whether to enable preview editors or not
     "workbench.iconTheme": "vscode-icons", // The name of the icon theme for the workbench UI
     "workbench.tree.indent": 12, // The number of pixels to indent in the explorer and open editors
-    "workbench.tree.renderIndentGuides": "always", // When to render the indentation guides in the explorer and open editors
-
-
+    "workbench.tree.renderIndentGuides": "always" // When to render the indentation guides in the explorer and open editors
 }

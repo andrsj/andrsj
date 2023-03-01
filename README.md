@@ -2,7 +2,7 @@
 
 I'm Go, Python developer with experience in building web applications.
 
-`[Data: 2/20/23]`
+`[Date: 2/20/23]`
 
 * I’m currently working on building microservices in Go.
 * Use modern technology which connected with Go, microservices, etc.
@@ -117,6 +117,7 @@ Ordered by date of work:
 | | | [Task 2](https://github.com/andrsj/my_test_task2/pull/1) * small task (general Python core) |
 | | | [Task 3](https://github.com/andrsj/my_test_task3/pull/1) * TODO project on [Django](https://docs.djangoproject.com/) |
 | ★★★★☆ | [Golang CRUD example](https://github.com/andrsj/go_anime_crud) | Small project that realize CRUD in Golang language using different modern technology |
+| ★★★★★ | [Go Rabbit Image](https://github.com/andrsj/go-rabbit-image) | Test Task with simple application using RabbitMQ Message Broker |
 
 > $ sign informs that it was a commercial project/projects
 
@@ -172,6 +173,7 @@ Name | Description | Rating from "VS Code" Market
 DavidAnson.vscode-markdownlint | Markdown linting and style checking for VS Code | 4.9 (394 ratings)
 esbenp.prettier-vscode | Code formatter using Prettier | 4.9 (3,836 ratings)
 humao.rest-client | REST client | 4.8 (3,704 ratings)
+rangav.vscode-thunder-client | Thunder Client | 4.9 (158 ratings)
 mikestead.dotenv | .env syntax highlighting for VS Code | 4.8 (117 ratings)
 eamodio.gitlens | GitLens * Git supercharged | 4.8 (2,905 ratings)
 ms-vsliveshare.vsliveshare | Visual Studio Live Share Extension | 4.7 (352 ratings)
