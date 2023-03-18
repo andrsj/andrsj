@@ -2,7 +2,7 @@
 
 I'm Go, Python developer with experience in building web applications.
 
-`[Date: 2/20/23]`
+`[Date: 18 March 23]`
 
 * I’m currently working on building microservices in Go.
 * Use modern technology which connected with Go, microservices, etc.
@@ -12,7 +12,7 @@ I'm Go, Python developer with experience in building web applications.
   * [LinkedIn](https://www.linkedin.com/in/andrsj-derkach/)
   * [Github](https://github.com/andrsj)
   * [Gitlab](https://gitlab.com/andrsj)
-* I’m currently learning microservices deeper
+* I’m currently learning [microservices](https://microservices.io/) deeper
 
 ## Table of content
 
@@ -25,17 +25,12 @@ I'm Go, Python developer with experience in building web applications.
     * [Other tools](#other-tools)
     * [TODO to learn / to use](#todo-to-learn--to-use)
   * [Projects](#projects)
-  * [VS Code](#vs-code)
-    * [Remote developing](#remote-developing)
-    * [Python developing](#python-developing)
-    * [Golang developing](#golang-developing)
-    * [Others tools](#others-tools)
-    * [Settings](#settings)
-    * [Tasks](#tasks)
 
 ## Skills
 
-### Languages: Go*, Python, Javascript
+### Languages: [Go*](https://go.dev/), [Python](https://www.python.org/), [Javascript](https://developer.mozilla.org/ru/docs/Web/JavaScript)
+
+> `*` - main language right now
 
 ### Go frameworks
 
@@ -47,6 +42,8 @@ Echo | A high performance, extensible, minimalist Go web framework. | <https://g
 Gorm | A powerful ORM library for Go that provides elegant and expressive way to access relational databases. | <https://gorm.io/>
 Fiber | An Express-inspired web framework built on FastHTTP. | <https://github.com/gofiber/fiber>
 Redis | A Go client for Redis, the popular in-memory key-value data store. | <https://github.com/go-redis/redis>
+RabbitMQ | This is a Go AMQP 0.9.1 client maintained by the RabbitMQ core team | <https://github.com/rabbitmq/amqp091-go>
+Samara | Sarama is an MIT-licensed Go client library for Apache Kafka | <https://github.com/Shopify/sarama>
 Colly | A fast and elegant web crawling framework for Go. | <http://go-colly.org/>
 Ginkgo | A BDD-style Go testing framework that is expressive, extensible, and provides great debugging experience. | <https://onsi.github.io/ginkgo/>
 Testify | A popular unit testing library for Go with support for assertions, test suites, and mocking. | <https://github.com/stretchr/testify>
@@ -70,7 +67,11 @@ Alembic | Alembic is a lightweight database migration tool for usage with SQLAlc
   * [PostgreSQL](https://www.postgresql.org/) - Open source relational database management system.
   * [MySQL](https://www.mysql.com/) - Popular open-source relational database management system.
   * [Redis](https://redis.io/) - In-memory data structure store, used as a database, cache, and message broker.
-  * [SQLite](https://www.sqlite.org/docs.html) - popular lightweight and serverless relational database management system.
+  * [SQLite](https://www.sqlite.org/docs.html) - Popular lightweight and serverless relational database management system.
+  * [MongoDB](https://www.mongodb.com/) - Multi-cloud database service
+* Message brokers:
+  * [RabbitMQ](https://www.rabbitmq.com/) - The most widely deployed open source message broker
+  * [Apache Kafka](https://kafka.apache.org/) - Open-source distributed event streaming platform
 * Other tools:
   * [Docker](https://www.docker.com/) - A platform for developing, shipping, and running applications using container technology.
   * [Git](https://git-scm.com/) - Free and open source distributed version control system.
@@ -79,7 +80,6 @@ Alembic | Alembic is a lightweight database migration tool for usage with SQLAlc
 
 Technology | Description
 ---------- | -----------
-Message broker | A message broker is an intermediary software or service that allows different software applications to communicate with each other. Examples of message brokers include Apache Kafka, RabbitMQ, and ActiveMQ.
 WebSockets | WebSockets is a protocol that enables bi-directional communication between a client and a server over a single TCP connection. It provides a persistent, low-latency connection that can be used to send messages in real-time.
 gRPC | gRPC is a high-performance, open-source framework for building remote procedure call (RPC) APIs. It uses protocol buffers as the interface definition language and supports a variety of programming languages.
 UDP | User Datagram Protocol (UDP) is a transport protocol that is used to transmit data between two network hosts. Unlike Transmission Control Protocol (TCP), UDP is connectionless, which means it does not establish a reliable end-to-end connection. Instead, UDP sends data in the form of datagrams or packets, which may be lost or delivered out of order. UDP is often used for applications that require low-latency communication, such as online gaming or voice and video streaming, where some data loss is acceptable in order to achieve real-time performance.
@@ -96,110 +96,30 @@ Ordered by date of work:
 | ★★☆☆☆ | [Education](https://github.com/andrsj/education) | Code that written for my education in university (**No long updated**) |
 | ★★☆☆☆ | [Python-Edu](https://github.com/andrsj/Python-Edu) | Unordered codes that I wrote during myself education |
 | ★★★☆☆ | [Green Lantern](https://github.com/andrsj/green_lantern) | Projects that demonstrates how I studied at the [Cursor.Education school](https://www.cursor.education/). This school provide me the knowledge about:|
-| | | Git |
+| | | [Git](https://git-scm.com/) |
 | | | Web API, REST, RESTful |
-| | | Docker, Docker-compose |
+| | | [Docker](https://www.docker.com/), [Docker-compose](https://docs.docker.com/compose/) |
 | | | [psycopg2](https://www.psycopg.org/docs/) |
 | | | [Flask](https://flask.palletsprojects.com/) |
 | | | ~~[Django](https://docs.djangoproject.com/)~~ (haven't used in my projects, *I don't like this framework*) |
 | | | [pytest](https://docs.pytest.org/), [unittest](https://docs.python.org/3/library/unittest.html) |
 | | | TDD (Test-Driven Development) approach to software development. |
-| ★★★☆☆ | $ [CallBot](https://github.com/andrsj/call_bot) | Simple [Discord](https://discord.com/) bot that handle phone book for administrator of the server |
+| ★★★☆☆ | $ [CallBot](https://github.com/andrsj/call_bot) | Simple [Discord](https://discord.com/) bot by [DiscordAPI](https://discord.com/developers/docs/intro) that handle phone book for administrator of the server |
 | ★★★★☆ | $ [Mafia Club Rating system](https://github.com/andrsj/mafia_club) | Automotive project which handle [Google Sheets](https://docs.google.com/spreadsheets/) tables with prepared game on the [Google Drive](https://drive.google.com/) |
 | ★★★☆☆ | [Test Task](https://github.com/andrsj/task_elevator) | Small test task for Python Junior developer using best practices |
 | ★★★★★ | $ **NDA Projects** | Golang development in [Luxoft Solution company](https://www.luxoft.com/) |
 | | | Writting different web applications with libraries: |
-| | | Gin, Echo, Chi, FastHTTP |
-| | | Gorm, Redis |
-| | | Testify, Gingko |
+| | | [Gin](https://gin-gonic.com/), [Echo](https://echo.labstack.com/), [Chi](https://go-chi.io/#/), [FastHTTP](https://github.com/valyala/fasthttp) |
+| | | [Gorm](https://gin-gonic.com/), [Redis](https://redis.io/) |
+| | | [Testify](https://github.com/stretchr/testify), [Gingko](https://onsi.github.io/ginkgo/) |
 | ★★☆☆☆ | Test mentor code review | *links below open the PR with my comments*: |
 | | | [Task 1](https://github.com/andrsj/my_test_task1/pull/1) * small task (general Python core) |
 | | | [Task 2](https://github.com/andrsj/my_test_task2/pull/1) * small task (general Python core) |
 | | | [Task 3](https://github.com/andrsj/my_test_task3/pull/1) * TODO project on [Django](https://docs.djangoproject.com/) |
-| ★★★★☆ | [Golang CRUD example](https://github.com/andrsj/go_anime_crud) | Small project that realize CRUD in Golang language using different modern technology |
-| ★★★★★ | [Go Rabbit Image](https://github.com/andrsj/go-rabbit-image) | Test Task with simple application using RabbitMQ Message Broker |
+| ★★★☆☆ | [Golang CRUD example](https://github.com/andrsj/go_anime_crud) | Small project that realize CRUD in Golang language using different modern technology |
+| ★★★★★ | [Go Rabbit Image](https://github.com/andrsj/go-rabbit-image) | Test Task with simple application using [RabbitMQ Message Broker](https://www.rabbitmq.com/) |
+| ★★★★★ | [Feedback service](https://github.com/andrsj/feedback-service) | Test Task with Feedback API using [Apache Kafka](https://kafka.apache.org/), [PostgreSQL](https://www.postgresql.org/), [Memcached](https://memcached.org/) and [JWT auth](https://jwt.io/).
 
 > $ sign informs that it was a commercial project/projects
 
 ___
-
-## VS Code
-
-Installing necessary extension:
-
-* Open VS CodeOpen the Extensions panel by clicking on the Extensions icon in the left-hand menu (it looks like four squares)
-* Click on the three-dot menu button in the top-right corner of the Extensions panel
-* Select `"Show Recommended Extensions"` from the drop-down menu
-* Search for the first extension in list below by typing its name in the search bar at the top of the panel
-* Click on the extension in the search results to open its details page
-* Click the `"Install"` button on the extension's details page
-
-> Alternatively, you can install all the extensions at once by running the following command in the VS Code integrated terminal: `code --install-extension <extension-1> <extension-2> ... <extension-n>`
-
-List of my extension:
-
-### Remote developing
-
-| Name | Description |
-| ---- | ----------- |
-| ms-vscode-remote.remote-containers | Develop inside a container running on a remote Docker host |
-| ms-vscode-remote.remote-ssh | Connect to any location by opening any folder on a remote machine or in WSL |
-| ms-vscode-remote.remote-ssh-edit | Allows you to open remote files directly in your local VS Code instance with ssh key |
-| ms-vscode-remote.remote-wsl | Develop on the Windows Subsystem for Linux using Visual Studio Code |
-| ms-vscode-remote.vscode-remote-extensionpack | A collection of extensions for working with remote servers in VS Code
-| ms-vscode.remote-explorer | Browse and manage your remote file system directly from within VS Code |
-| ms-vscode.remote-server | Installs the VS Code Server which allows for remote development over SSH |
-| ms-azuretools.vscode-docker | Provides syntax highlighting, snippets, commands, and hover tips for Dockerfile and docker-compose files in Visual Studio Code. |
-
-### Python developing
-
-| Name | Description |
-| ---- | ----------- |
-| ms-python.isort | Sorts and organizes Python imports with isort |
-| ms-python.python | Official Microsoft extension for Python |
-| ms-python.vscode-pylance | Provides advanced type checking and intellisense features for Python |
-
-### Golang developing
-
-| Name | Description |
-| ---- | ----------- |
-| golang.go | Adds language support for the Go programming language
-| aleksandra.go-group-imports | An extension that helps to group imports of Go code by organizing them into separate blocks based on their import path |
-
-### Others tools
-
-Name | Description | Rating from "VS Code" Market
----- | ----------- | ----------------------------
-DavidAnson.vscode-markdownlint | Markdown linting and style checking for VS Code | 4.9 (394 ratings)
-esbenp.prettier-vscode | Code formatter using Prettier | 4.9 (3,836 ratings)
-humao.rest-client | REST client | 4.8 (3,704 ratings)
-rangav.vscode-thunder-client | Thunder Client | 4.9 (158 ratings)
-mikestead.dotenv | .env syntax highlighting for VS Code | 4.8 (117 ratings)
-eamodio.gitlens | GitLens * Git supercharged | 4.8 (2,905 ratings)
-ms-vsliveshare.vsliveshare | Visual Studio Live Share Extension | 4.7 (352 ratings)
-mtxr.sqltools | Database management and exploration | 4.7 (126 ratings)
-patbenatar.advanced-new-file | Creates files and folders quickly | 4.7 (386 ratings)
-richie5um2.vscode-sort-json | Sort JSON arrays and objects | 4.7 (562 ratings)
-ritwickdey.LiveServer | Launch a development local Server with live reload | 4.6 (2,923 ratings)
-streetsidesoftware.code-spell-checker | Spelling checker for source code | 4.6 (1,298 ratings)
-vscode-icons-team.vscode-icons | Icons for Visual Studio Code | 4.6 (8,546 ratings)
-yzhang.markdown-all-in-one | All-in-one Markdown extension | 4.6 (2,273 ratings)
-
-### Settings
-
-* Open VS Code.
-* Press `Ctrl + Shift + P` on Windows or `Cmd + Shift + P` on Mac to open the Command Palette.
-* Choose `"Preferences: Open User Settings"` in the Command Palette and select it. This will open the `settings.json` file.
-* Paste code from [`settings.json`](./settings.json) file
-* Save the `settings.json` file by pressing `Ctrl + S` on Windows or `Cmd + S` on Mac.
-* Close the `settings.json` file.
-* Restart VS Code to apply the new settings or Developer: Reload Window from Command Palette
-
-### Tasks
-
-* Open VS Code
-* Press `Ctrl + Shift + P` on Windows or `Cmd + Shift + P` on Mac to open the Command Palette.
-* Choose `"Tasks: Open User Tasks"` in the Command Palette and select it. This will open the `tasks.json` file.
-* Paste code from [`tasks.json`](./tasks.json) file.
-* Save the `tasks.json` file by pressing `Ctrl + S` on Windows or `Cmd + S` on Mac.
-* Close the `tasks.json` file.
