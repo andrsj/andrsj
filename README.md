@@ -1,125 +1,133 @@
-# Hi there, I'm [Andrii](https://t.me/andrsj)
+# Andrii Derkach
 
-I'm Go, Python developer with experience in building web applications.
+**Go & Python Backend Engineer**
 
-`[Date: 18 March 23]`
+Go/Python backend engineer with 4+ years of experience building microservices, automation tools, and distributed systems. Strong in Go backend development, SQL/NoSQL databases, REST/gRPC APIs, and containerization with Docker/k8s. Experienced in cloud platforms, event-driven architectures, data pipelines, and performance optimization.
 
-* I’m currently working on building microservices in Go.
-* Use modern technology which connected with Go, microservices, etc.
-* How to reach me:
-  * [andrsj.derkach@gmail.com](mailto:andrsj.derkach@gmail.com)
-  * [Telegram](https://t.me/andrsj) (more active there)
-  * [LinkedIn](https://www.linkedin.com/in/andrsj-derkach/)
-  * [Github](https://github.com/andrsj)
-  * [Gitlab](https://gitlab.com/andrsj)
-* I’m currently learning [microservices](https://microservices.io/) deeper
+## Tech Stack
 
-## Table of content
+**Languages**
 
-* [Hi there, I'm Andrii](#hi-there-im-andrii)
-  * [Table of content](#table-of-content)
-  * [Skills](#skills)
-    * [Languages: Go\*, Python, Javascript](#languages-go-python-javascript)
-    * [Go frameworks](#go-frameworks)
-    * [Python frameworks](#python-frameworks)
-    * [Other tools](#other-tools)
-    * [TODO to learn / to use](#todo-to-learn--to-use)
-  * [Projects](#projects)
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)](https://go.dev/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
 
-## Skills
+**Go**
 
-### Languages: [Go*](https://go.dev/), [Python](https://www.python.org/), [Javascript](https://developer.mozilla.org/ru/docs/Web/JavaScript)
+[![Echo](https://img.shields.io/badge/Echo-00ADD8?style=flat)](https://echo.labstack.com/)
+[![Gin](https://img.shields.io/badge/Gin-00ADD8?style=flat)](https://gin-gonic.com/)
+[![Chi](https://img.shields.io/badge/Chi-00ADD8?style=flat)](https://go-chi.io/)
+[![Fiber](https://img.shields.io/badge/Fiber-00ADD8?style=flat)](https://gofiber.io/)
+[![GORM](https://img.shields.io/badge/GORM-00ADD8?style=flat)](https://gorm.io/)
+[![gRPC](https://img.shields.io/badge/gRPC%2FProtobuf-244C5A?style=flat)](https://grpc.io/)
+[![Testify](https://img.shields.io/badge/Testify-00ADD8?style=flat)](https://github.com/stretchr/testify)
+[![golangci‑lint](https://img.shields.io/badge/golangci--lint-00ADD8?style=flat)](https://golangci-lint.run/)
+[![Gocolly](https://img.shields.io/badge/Gocolly-00ADD8?style=flat)](http://go-colly.org/)
+[![squirrel](https://img.shields.io/badge/squirrel-00ADD8?style=flat)](https://github.com/Masterminds/squirrel)
+[![ozzo‑validation](https://img.shields.io/badge/ozzo--validation-00ADD8?style=flat)](https://github.com/go-ozzo/ozzo-validation)
+[![migrate](https://img.shields.io/badge/migrate-00ADD8?style=flat)](https://github.com/golang-migrate/migrate)
+[![goose](https://img.shields.io/badge/goose-00ADD8?style=flat)](https://github.com/pressly/goose)
 
-> `*` - main language right now
+**Python**
 
-### Go frameworks
+[![Flask](https://img.shields.io/badge/Flask-000?style=flat&logo=flask)](https://flask.palletsprojects.com/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat)](https://www.sqlalchemy.org/)
+[![Alembic](https://img.shields.io/badge/Alembic-6BA81E?style=flat)](https://alembic.sqlalchemy.org/)
+[![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=flat&logo=pytest&logoColor=white)](https://docs.pytest.org/)
+[![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)](https://www.selenium.dev/)
+[![Scrapy](https://img.shields.io/badge/Scrapy-60A839?style=flat)](https://scrapy.org/)
 
-Name | Description | URL
----- | ----------- | ---
-Gin | A web framework with a focus on high performance and good productivity. | <https://github.com/gin-gonic/gin>
-Chi | A lightweight and idiomatic router for building Go HTTP services. | <https://github.com/go-chi/chi>
-Echo | A high performance, extensible, minimalist Go web framework. | <https://github.com/labstack/echo>
-Gorm | A powerful ORM library for Go that provides elegant and expressive way to access relational databases. | <https://gorm.io/>
-Fiber | An Express-inspired web framework built on FastHTTP. | <https://github.com/gofiber/fiber>
-Redis | A Go client for Redis, the popular in-memory key-value data store. | <https://github.com/go-redis/redis>
-RabbitMQ | This is a Go AMQP 0.9.1 client maintained by the RabbitMQ core team | <https://github.com/rabbitmq/amqp091-go>
-Samara | Sarama is an MIT-licensed Go client library for Apache Kafka | <https://github.com/Shopify/sarama>
-Colly | A fast and elegant web crawling framework for Go. | <http://go-colly.org/>
-Ginkgo | A BDD-style Go testing framework that is expressive, extensible, and provides great debugging experience. | <https://onsi.github.io/ginkgo/>
-Testify | A popular unit testing library for Go with support for assertions, test suites, and mocking. | <https://github.com/stretchr/testify>
-FastHTTP | A high-performance HTTP implementation for Go that provides custom HTTP server and client implementations. | <https://github.com/valyala/fasthttp>
-Gorilla Web Kit | A collection of packages that provide various utilities to build web applications and services in Go. | <https://github.com/gorilla/>
+**Databases & Search**
 
-___
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Google Spanner](https://img.shields.io/badge/Spanner-4285F4?style=flat&logo=googlecloud&logoColor=white)](https://cloud.google.com/spanner)
+[![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)](https://redis.io/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Memcached](https://img.shields.io/badge/Memcached-1BA0D7?style=flat)](https://memcached.org/)
+[![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=flat&logo=opensearch&logoColor=white)](https://opensearch.org/)
+[![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=flat&logo=elasticsearch&logoColor=white)](https://www.elastic.co/elasticsearch)
 
-### Python frameworks
+**Messaging**
 
-Name | Description | URL
----- | ----------- | ---
-Flask | Flask is a lightweight web framework that provides useful tools and features for creating web applications. | <https://flask.palletsprojects.com/>
-FastApi | FastAPI is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints. | <https://fastapi.tiangolo.com/>
-SqlAlchemy | SQLAlchemy is a popular SQL toolkit and Object-Relational Mapping (ORM) library for Python. | <https://docs.sqlalchemy.org/>
-Alembic | Alembic is a lightweight database migration tool for usage with SQLAlchemy. | <https://alembic.sqlalchemy.org/en/latest/>
+[![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)](https://kafka.apache.org/)
+[![Redpanda](https://img.shields.io/badge/Redpanda-E4405F?style=flat)](https://redpanda.com/)
+[![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)](https://www.rabbitmq.com/)
 
-### Other tools
+**Infrastructure & DevOps**
 
-* Databases:
-  * [PostgreSQL](https://www.postgresql.org/) - Open source relational database management system.
-  * [MySQL](https://www.mysql.com/) - Popular open-source relational database management system.
-  * [Redis](https://redis.io/) - In-memory data structure store, used as a database, cache, and message broker.
-  * [SQLite](https://www.sqlite.org/docs.html) - Popular lightweight and serverless relational database management system.
-  * [MongoDB](https://www.mongodb.com/) - Multi-cloud database service
-* Message brokers:
-  * [RabbitMQ](https://www.rabbitmq.com/) - The most widely deployed open source message broker
-  * [Apache Kafka](https://kafka.apache.org/) - Open-source distributed event streaming platform
-* Other tools:
-  * [Docker](https://www.docker.com/) - A platform for developing, shipping, and running applications using container technology.
-  * [Git](https://git-scm.com/) - Free and open source distributed version control system.
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)](https://cloud.google.com/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white)](https://www.ansible.com/)
+[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)](https://grafana.com/)
+[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)](https://prometheus.io/)
 
-### TODO to learn / to use
+**3rd Party APIs & Services**
 
-Technology | Description
----------- | -----------
-WebSockets | WebSockets is a protocol that enables bi-directional communication between a client and a server over a single TCP connection. It provides a persistent, low-latency connection that can be used to send messages in real-time.
-gRPC | gRPC is a high-performance, open-source framework for building remote procedure call (RPC) APIs. It uses protocol buffers as the interface definition language and supports a variety of programming languages.
-UDP | User Datagram Protocol (UDP) is a transport protocol that is used to transmit data between two network hosts. Unlike Transmission Control Protocol (TCP), UDP is connectionless, which means it does not establish a reliable end-to-end connection. Instead, UDP sends data in the form of datagrams or packets, which may be lost or delivered out of order. UDP is often used for applications that require low-latency communication, such as online gaming or voice and video streaming, where some data loss is acceptable in order to achieve real-time performance.
-Kubernetes | (also known as K8s) is an open-source container orchestration platform that automates many of the manual processes involved in deploying, managing, and scaling containerized applications. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF). K8s provides a highly available and fault-tolerant platform that can run anywhere, allowing developers to easily manage their applications and services at scale. It also provides powerful features for deploying, scaling, and updating containerized applications, as well as monitoring and logging. K8s is widely used in production environments and is a popular choice for deploying cloud-native applications.
+[![Telegram API](https://img.shields.io/badge/Telegram_API-26A5E4?style=flat&logo=telegram&logoColor=white)](https://core.telegram.org/bots/api)
+[![Discord API](https://img.shields.io/badge/Discord_API-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.com/developers/docs)
+[![Google API](https://img.shields.io/badge/Google_API-4285F4?style=flat&logo=google&logoColor=white)](https://developers.google.com/)
+[![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat&logo=twilio&logoColor=white)](https://www.twilio.com/)
+[![SendGrid](https://img.shields.io/badge/SendGrid-51A9E3?style=flat&logo=sendgrid&logoColor=white)](https://sendgrid.com/)
+[![Zenrows](https://img.shields.io/badge/Zenrows-000?style=flat)](https://www.zenrows.com/)
 
-___
+**Operating Systems**
 
-## Projects
+[![macOS](https://img.shields.io/badge/macOS-000?style=flat&logo=apple&logoColor=white)](https://www.apple.com/macos/)
+[![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=archlinux&logoColor=white)](https://archlinux.org/)
+[![Manjaro](https://img.shields.io/badge/Manjaro-35BF5C?style=flat&logo=manjaro&logoColor=white)](https://manjaro.org/)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
+[![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+[![WSL](https://img.shields.io/badge/WSL-FCC624?style=flat&logo=linux&logoColor=black)](https://learn.microsoft.com/en-us/windows/wsl/)
 
-Ordered by date of work:
+## Experience
 
-| Subjective assessment | Name | Description |
-| --------------------- | ---- | ----------- |
-| ★★☆☆☆ | [Education](https://github.com/andrsj/education) | Code that written for my education in university (**No long updated**) |
-| ★★☆☆☆ | [Python-Edu](https://github.com/andrsj/Python-Edu) | Unordered codes that I wrote during myself education |
-| ★★★☆☆ | [Green Lantern](https://github.com/andrsj/green_lantern) | Projects that demonstrates how I studied at the [Cursor.Education school](https://www.cursor.education/). This school provide me the knowledge about:|
-| | | [Git](https://git-scm.com/) |
-| | | Web API, REST, RESTful |
-| | | [Docker](https://www.docker.com/), [Docker-compose](https://docs.docker.com/compose/) |
-| | | [psycopg2](https://www.psycopg.org/docs/) |
-| | | [Flask](https://flask.palletsprojects.com/) |
-| | | ~~[Django](https://docs.djangoproject.com/)~~ (haven't used in my projects, *I don't like this framework*) |
-| | | [pytest](https://docs.pytest.org/), [unittest](https://docs.python.org/3/library/unittest.html) |
-| | | TDD (Test-Driven Development) approach to software development. |
-| ★★★☆☆ | $ [CallBot](https://github.com/andrsj/call_bot) | Simple [Discord](https://discord.com/) bot by [DiscordAPI](https://discord.com/developers/docs/intro) that handle phone book for administrator of the server |
-| ★★★★☆ | $ [Mafia Club Rating system](https://github.com/andrsj/mafia_club) | Automotive project which handle [Google Sheets](https://docs.google.com/spreadsheets/) tables with prepared game on the [Google Drive](https://drive.google.com/) |
-| ★★★☆☆ | [Test Task](https://github.com/andrsj/task_elevator) | Small test task for Python Junior developer using best practices |
-| ★★★★★ | $ **NDA Projects** | Golang development in [Luxoft Solution company](https://www.luxoft.com/) |
-| | | Writting different web applications with libraries: |
-| | | [Gin](https://gin-gonic.com/), [Echo](https://echo.labstack.com/), [Chi](https://go-chi.io/#/), [FastHTTP](https://github.com/valyala/fasthttp) |
-| | | [Gorm](https://gin-gonic.com/), [Redis](https://redis.io/) |
-| | | [Testify](https://github.com/stretchr/testify), [Gingko](https://onsi.github.io/ginkgo/) |
-| ★★☆☆☆ | Test mentor code review | *links below open the PR with my comments*: |
-| | | [Task 1](https://github.com/andrsj/my_test_task1/pull/1) * small task (general Python core) |
-| | | [Task 2](https://github.com/andrsj/my_test_task2/pull/1) * small task (general Python core) |
-| | | [Task 3](https://github.com/andrsj/my_test_task3/pull/1) * TODO project on [Django](https://docs.djangoproject.com/) |
-| ★★★☆☆ | [Golang CRUD example](https://github.com/andrsj/go_anime_crud) | Small project that realize CRUD in Golang language using different modern technology |
-| ★★★★★ | [Go Rabbit Image](https://github.com/andrsj/go-rabbit-image) | Test Task with simple application using [RabbitMQ Message Broker](https://www.rabbitmq.com/) |
-| ★★★★★ | [Feedback service](https://github.com/andrsj/feedback-service) | Test Task with Feedback API using [Apache Kafka](https://kafka.apache.org/), [PostgreSQL](https://www.postgresql.org/), [Memcached](https://memcached.org/) and [JWT auth](https://jwt.io/).
+### Golang Developer @ Cherrytrader `Jun 2025 – Present`
 
-> $ sign informs that it was a commercial project/projects
+Cloud-based trading platform for American trucks with analytics and tracking system.
 
-___
+- Backend services in Go for trading and analytics platform (GCP, Spanner, k8s)
+- REST/gRPC APIs, data processing services, and performance optimization
+- Integration of large clients with custom data pipelines
+- Web scraping pipelines (Gocolly, Zenrows, Selenium)
+- Production k8s cluster management, incident response, and monitoring
+
+### Golang Developer @ AerLogics `Apr 2025 – Jun 2025`
+
+Aviation flight tracking & pilot logbook platform with real-time data pipelines and safety analysis.
+
+- Event-driven microservices (Go, gRPC, Protobuf) with Kafka/Redpanda streaming pipelines processing real-time aircraft telemetry
+- Shared Go library with CQRS decorators, Kafka consumer/producer abstractions, and structured logging
+- Containerized infrastructure with PostgreSQL/PostGIS, OpenSearch, Redis, Grafana/Prometheus
+- Aeronautical advisory processing (METAR, NOTAM, TFR) with geospatial flight-path matching
+
+### Golang Developer @ KiraNetwork `Feb 2023 – May 2024`
+
+Blockchain automation platform — distributed, verifiable cloud computing network for managing blockchain nodes.
+
+- DevOps automation tool for orchestrating containers using Go Docker SDK and Unix sockets
+- CLI tool for node control: setup, monitoring, and failure recovery
+- Reduced Docker images from 7 GB to ~100 MB each by applying separation of concerns
+- CI/CD rules for linting and formatting
+
+### Golang Jn Developer @ Luxoft `Feb 2022 – Mar 2023`
+
+Cloud-based dental management SaaS platform on microservice architecture.
+
+- Backend microservices using Go & Docker (Gin, Echo, Fiber, Chi)
+- High-performance gRPC endpoints for inter-service communication
+- Message brokers integration (RabbitMQ, Kafka) for async processing
+- SQL & NoSQL query optimization (PostgreSQL, MongoDB, Redis)
+
+## Contact
+
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/andrsj)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:andrsj.derkach@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrsj-derkach)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/andrsj)
+[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white)](https://gitlab.com/andrsj)
