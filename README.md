@@ -1,5 +1,7 @@
 # Andrii Derkach
 
+📄 [CV (PDF)](CV%20Andrii%20Derkach.pdf)
+
 **Go & Python Backend Engineer**
 
 Go/Python backend engineer with 4+ years of experience building microservices, automation tools, and distributed systems. Strong in Go backend development, SQL/NoSQL databases, REST/gRPC APIs, and containerization with Docker/k8s. Experienced in cloud platforms, event-driven architectures, data pipelines, and performance optimization.
