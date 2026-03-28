@@ -39,6 +39,10 @@
   ]
 }
 
+#let contact-link(url, label) = {
+  link(url)[#text(fill: accent)[#underline(label)]]
+}
+
 // ── Header ─────────────────────────────────────────────────────────
 #text(size: 28pt, weight: "bold", fill: heading-color)[Andrii Derkach]
 #v(-4pt)
@@ -49,11 +53,11 @@
 #text(size: 9pt, fill: light-text)[
   +38 (096) 26 84 768 #h(8pt) | #h(8pt)
   Lviv, Ukraine #h(8pt) | #h(8pt)
-  #link("mailto:andrsj.derkach@gmail.com")[andrsj.derkach\@gmail.com] #h(8pt) | #h(8pt)
-  #link("https://t.me/andrsj")[Telegram] #h(8pt) | #h(8pt)
-  #link("https://github.com/andrsj")[GitHub] #h(8pt) | #h(8pt)
-  #link("https://gitlab.com/andrsj")[GitLab] #h(8pt) | #h(8pt)
-  #link("https://www.linkedin.com/in/andrsj-derkach")[LinkedIn]
+  #contact-link("mailto:andrsj.derkach@gmail.com")[andrsj.derkach\@gmail.com] #h(8pt) | #h(8pt)
+  #contact-link("https://t.me/andrsj")[Telegram] #h(8pt) | #h(8pt)
+  #contact-link("https://github.com/andrsj")[GitHub] #h(8pt) | #h(8pt)
+  #contact-link("https://gitlab.com/andrsj")[GitLab] #h(8pt) | #h(8pt)
+  #contact-link("https://www.linkedin.com/in/andrsj-derkach")[LinkedIn]
 ]
 #v(2pt)
 
@@ -65,6 +69,9 @@
   Experienced in cloud platforms, data pipelines and performance optimisation.
   Python for data analysis, web scraping, and automation scripting.
 ]
+
+// ── Languages ───────────────────────────────────────────────────────
+#text(size: 9.5pt, fill: light-text)[*Languages:* Ukrainian (Native), English (Upper Intermediate)]
 
 // ── Skills ──────────────────────────────────────────────────────────
 #section-heading("Skills")
@@ -127,37 +134,6 @@
   Telegram API, Discord API, Google API (Sheets, Drive, Docs),
   Twilio, Sendgrid, Zenrows
 ]
-
-// ── Education ───────────────────────────────────────────────────────
-#section-heading("Education")
-
-#grid(
-  columns: (1fr, auto),
-  [#text(weight: "bold", size: 10pt)[Bachelor's degree, Computer Science]
-    #v(-2pt)
-    #text(size: 9pt, fill: light-text)[The Ivan Franko National University of Lviv]
-    #v(-1pt)
-    #text(
-      size: 8.5pt,
-      style: "italic",
-      fill: light-text,
-    )[Web development, statistics, ML, data analytics, clustering, Linux administration]],
-  text(size: 9pt, fill: light-text)[Sep 2017 – June 2021],
-)
-#v(4pt)
-#grid(
-  columns: (1fr, auto),
-  [#text(weight: "bold", size: 10pt)[Master's degree, Computer Science]
-    #v(-2pt)
-    #text(size: 9pt, fill: light-text)[The Ivan Franko National University of Lviv]
-    #v(-1pt)
-    #text(
-      size: 8.5pt,
-      style: "italic",
-      fill: light-text,
-    )[Distributed systems, containerization (Docker, k8s), ML, data analytics, statistics, Linux administration]],
-  text(size: 9pt, fill: light-text)[Sep 2021 – Dec 2022],
-)
 
 // ── Experience ──────────────────────────────────────────────────────
 #section-heading("Experience")
@@ -250,8 +226,34 @@
   tech: [Docker, PostgreSQL \ Python, SQLAlchemy, Alembic \ Google API, Telegram API, Discord API],
 )
 
-// ── Languages ───────────────────────────────────────────────────────
+// ── Education ───────────────────────────────────────────────────────
+#section-heading("Education")
+
+#grid(
+  columns: (1fr, auto),
+  [#text(weight: "bold", size: 10pt)[Bachelor's degree, Computer Science]
+    #v(-2pt)
+    #text(size: 9pt, fill: light-text)[The Ivan Franko National University of Lviv]
+    #v(-1pt)
+    #text(
+      size: 8.5pt,
+      style: "italic",
+      fill: light-text,
+    )[Web development, statistics, ML, data analytics, clustering, Linux administration]],
+  text(size: 9pt, fill: light-text)[Sep 2017 – June 2021],
+)
 #v(4pt)
-#line(length: 100%, stroke: 0.3pt + rgb("cccccc"))
-#v(2pt)
-#text(size: 9pt, fill: light-text)[*Languages:* Ukrainian (Native), English (Upper Intermediate)]
+#grid(
+  columns: (1fr, auto),
+  [#text(weight: "bold", size: 10pt)[Master's degree, Computer Science]
+    #v(-2pt)
+    #text(size: 9pt, fill: light-text)[The Ivan Franko National University of Lviv]
+    #v(-1pt)
+    #text(
+      size: 8.5pt,
+      style: "italic",
+      fill: light-text,
+    )[Distributed systems, containerization (Docker, k8s), ML, data analytics, statistics, Linux administration]],
+  text(size: 9pt, fill: light-text)[Sep 2021 – Dec 2022],
+)
+
