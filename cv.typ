@@ -100,7 +100,7 @@
     - Implemented tracking and statistics features for sellers and buyers, including Twilio-based call tracking with virtual proxy numbers (call records and metadata)
     - Reduced Spanner costs by ~28% on dev/staging by migrating from Enterprise Plus to Standard edition
     - Managed and updated production k8s cluster on GCP
-    - Conducted code reviews including tech lead's code
+    - Conducted code reviews including tech lead's code, catching architectural issues before production
     - Leveraged AI-assisted development (Claude Code) to accelerate delivery and improve code quality
   ],
   tech: [GCP, Spanner, k8s, Google API Gateway, Google Cloud Storage, Vercel \ Go, Echo, squirrel, zog, go-validator, golangci-lint, Gocolly, React \ Python (data analysis, scripting) \ Zenrows, Selenium, Twilio, Sendgrid, Claude Code],
@@ -117,7 +117,7 @@
     - Designed shared Go library with CQRS decorators, Kafka consumer/producer abstractions, and structured logging
     - Deployed containerized infrastructure with PostgreSQL/PostGIS (including DB triggers), OpenSearch, Redis, Redpanda, Grafana/Prometheus
     - Integrated aeronautical advisory processing (METAR, NOTAM, TFR) with geospatial flight-path matching
-    - Used Python for data analysis, field mapping, and database investigation
+    - Automated field mapping and data validation with Python, accelerating onboarding of new aviation data sources
   ],
   tech: [Docker, PostgreSQL/PostGIS, OpenSearch, Redis, Kafka/Redpanda \ Go, gRPC/Protobuf, GORM, ozzo-validation, migrate, goose, golangci-lint, React/TypeScript \ Python (data analysis, scripting) \ AirNav Systems, RadarBox, FAA data sources],
 )
@@ -132,7 +132,7 @@
     - Implemented containerized environments to simplify node deployment and lifecycle management
     - Developed a CLI tool for node control, including setup, monitoring, and failure recovery
     - Reduced Docker images from 7 GB to ~100 MB each by applying separation of concerns
-    - Mentored a junior developer and conducted extensive code reviews
+    - Mentored a junior developer, enabling them to contribute independently within 2 months
   ],
   tech: [Docker, Docker Compose, QEMU, Ansible, Unix Sockets, GitHub Actions, CI/CD \ Go, Gorilla Web Kit, golangci-lint, Bash],
 )
