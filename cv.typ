@@ -76,63 +76,12 @@
 // ── Skills ──────────────────────────────────────────────────────────
 #section-heading("Skills")
 
-#grid(
-  columns: (1fr, 1fr),
-  column-gutter: 12pt,
-  [
-    #text(size: 9.5pt)[
-      - *Languages:* Go #text(fill: accent)[★], Python, TS, JS
-      - *Databases:* PostgreSQL, MySQL, Spanner, MongoDB, Redis, Memcached
-      - *Search:* ElasticSearch, OpenSearch
-      - *APIs:* REST, gRPC/Protobuf
-    ]
-  ],
-  [
-    #text(size: 9.5pt)[
-      - *Infrastructure:* Git, Docker, k8s, CI/CD, Bash, Ansible
-      - *Frontend:* JS, React, TS
-      - *Messaging:* Kafka, RabbitMQ, Redpanda
-      - *Cloud:* GCP, AWS (basics), Vercel
-      - *Process:* Agile/Scrum, JIRA, Confluence, Linear
-    ]
-  ],
-)
-
-#v(2pt)
-#grid(
-  columns: (1fr, 1fr),
-  column-gutter: 12pt,
-  [
-    #text(weight: "bold", size: 9.5pt)[Go ecosystem]
-    #v(1pt)
-    #text(size: 9pt, style: "italic")[
-      Gin, Echo, Chi, Fiber, GORM, Testify,
-      golangci-lint, Gocolly, Gorilla Web Kit
-    ]
-  ],
-  [
-    #text(weight: "bold", size: 9.5pt)[Python ecosystem]
-    #v(1pt)
-    #text(size: 9pt, style: "italic")[
-      Flask, FastAPI, SQLAlchemy, Alembic,
-      PyTest, Scrapy, Selenium, BeautifulSoup
-    ]
-  ],
-)
-
-#v(2pt)
-#text(weight: "bold", size: 9.5pt)[AI-assisted development]
-#v(1pt)
-#text(size: 9pt, style: "italic")[
-  Anthropic Claude Code, OpenAI ChatGPT + Codex, Google Gemini, GitHub Copilot
-]
-
-#v(2pt)
-#text(weight: "bold", size: 9.5pt)[3rd party APIs & services]
-#v(1pt)
-#text(size: 9pt, style: "italic")[
-  Telegram API, Discord API, Google API (Sheets, Drive, Docs),
-  Twilio, Sendgrid, Zenrows
+#text(size: 9.5pt)[
+  - *Languages & Core:* Go (Echo, Gin, Chi, Fiber, gRPC), Python (FastAPI, Scrapy, Selenium), TS/JS (React)
+  - *Storage & Messaging:* Spanner, PostgreSQL, MySQL, MongoDB, Redis, ElasticSearch, Kafka, RabbitMQ, Redpanda
+  - *Infra & Tools:* GCP, AWS (basics), k8s, Docker, CI/CD, Ansible, Bash
+  - *AI-Assisted Dev:* Claude Code, ChatGPT, Gemini, GitHub Copilot
+  - *Process:* Agile/Scrum, JIRA, Confluence, Linear
 ]
 
 // ── Experience ──────────────────────────────────────────────────────
