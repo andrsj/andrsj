@@ -1,6 +1,7 @@
 # Andrii Derkach
 
-📄 [CV (PDF)](CV%20Andrii%20Derkach.pdf)
+📄 [CV Compact (PDF)](CV%20Andrii%20Derkach%20Compact.pdf)
+📄 [CV Detailed (PDF)](CV%20Andrii%20Derkach%20Detailed.pdf)
 
 **Go & Python Backend Engineer**
 
