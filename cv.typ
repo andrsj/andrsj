@@ -104,7 +104,7 @@
     - Led integration of a large client (up to 1,000 listings), building custom data pipelines and performance optimizations
     - Improved performance and stability of production services; resolved production incidents within 30 min – 4 hours
     - Implemented tracking and statistics features for sellers and buyers, including Twilio-based call tracking with virtual proxy numbers (call records and metadata)
-    - Reduced Spanner costs by ~28% on dev/staging by migrating from Enterprise Plus to Standard edition
+    - Reduced Spanner costs by \~28% on dev/staging by migrating from Enterprise Plus to Standard edition
     - Managed and updated production k8s cluster on GCP
     - Conducted code reviews including tech lead's code, catching architectural issues before production
     - Leveraged AI-assisted development (Claude Code) to accelerate delivery and improve code quality
@@ -137,7 +137,7 @@
     - Designed and developed a DevOps automation tool for orchestrating containers for blockchain nodes using Golang Docker SDK and Unix sockets
     - Implemented containerized environments to simplify node deployment and lifecycle management
     - Developed a CLI tool for node control, including setup, monitoring, and failure recovery
-    - Reduced Docker images from 7 GB to ~100 MB each by applying separation of concerns
+    - Reduced Docker images from 7 GB to \~100 MB each by applying separation of concerns
     - Mentored a junior developer, enabling them to contribute independently within 2 months
   ],
   tech: [Docker, Docker Compose, QEMU, Ansible, Unix Sockets, GitHub Actions, CI/CD \ Go, Gorilla Web Kit, golangci-lint, Bash],
