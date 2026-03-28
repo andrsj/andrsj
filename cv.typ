@@ -100,12 +100,7 @@
     - Implemented tracking and statistics features for sellers and buyers, including Twilio-based call tracking with virtual proxy numbers (call records and metadata)
     - Reduced Spanner costs by ~28% on dev/staging by migrating from Enterprise Plus to Standard edition
     - Managed and updated production k8s cluster on GCP
-    - Set up linting and code quality tooling
-    - Used Python and Selenium for data analysis, file processing, and database investigation
-    - Coordinated across distributed team with DevOps, backend, frontend, iOS, Android, and QA
     - Conducted code reviews including tech lead's code
-    - Maintained technical documentation (ApiDog, GitHub docs, PDFs for management and marketing)
-    - Task tracking with Linear, time management with Clockify
     - Leveraged AI-assisted development (Claude Code) to accelerate delivery and improve code quality
   ],
   tech: [GCP, Spanner, k8s, Google API Gateway, Google Cloud Storage, Vercel \ Go, Echo, squirrel, zog, go-validator, golangci-lint, Gocolly, React \ Python (data analysis, scripting) \ Zenrows, Selenium, Twilio, Sendgrid, Claude Code],
@@ -136,10 +131,8 @@
     - Designed and developed a DevOps automation tool for orchestrating containers for blockchain nodes using Golang Docker SDK and Unix sockets
     - Implemented containerized environments to simplify node deployment and lifecycle management
     - Developed a CLI tool for node control, including setup, monitoring, and failure recovery
-    - Set up CI/CD rules for linting and formatting
     - Reduced Docker images from 7 GB to ~100 MB each by applying separation of concerns
     - Mentored a junior developer and conducted extensive code reviews
-    - Maintained technical documentation in Notion
   ],
   tech: [Docker, Docker Compose, QEMU, Ansible, Unix Sockets, GitHub Actions, CI/CD \ Go, Gorilla Web Kit, golangci-lint, Bash],
 )
@@ -155,10 +148,7 @@
     - Built gRPC endpoints for inter-service communication, reducing response latency
     - Decoupled synchronous workflows into async pipelines via Kafka/RabbitMQ, improving system resilience
     - Identified and resolved slow queries in PostgreSQL and MongoDB causing production timeouts
-    - Configured linting and formatting standards for the team
-    - Experienced in Atlassian tools (JIRA, Confluence)
     - Assisted junior developers with problem-solving and conducted code reviews
-    - Maintained onboarding documentation in GitHub repos
   ],
   tech: [Docker, k8s, CI/CD, REST, gRPC, Redis, Kafka, RabbitMQ, PostgreSQL, MongoDB \ Go, Gin, Echo, Chi, GORM, Testify, pgx, ozzo-validation, migrate, goose, golangci-lint],
 )
