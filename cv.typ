@@ -20,7 +20,7 @@
 }
 
 #let experience-entry(role, dates, location, summary, bullets, tech: none) = {
-  block(breakable: false)[
+  block(breakable: true)[
     #v(6pt)
     #grid(
       columns: (1fr, auto),
