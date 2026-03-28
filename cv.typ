@@ -21,21 +21,27 @@
 
 #let experience-entry(role, dates, location, summary, bullets, tech: none) = {
   block(breakable: true)[
-    #v(6pt)
-    #grid(
-      columns: (1fr, auto),
-      text(weight: "bold", size: 10.5pt, role), text(size: 9pt, fill: light-text, dates),
-    )
-    #text(size: 9pt, style: "italic", fill: light-text, location)
-    #v(3pt)
-    #text(size: 9.5pt, summary)
-    #v(2pt)
-    #text(size: 9pt, bullets)
+    #block(breakable: false)[
+      #v(6pt)
+      #grid(
+        columns: (1fr, auto),
+        text(weight: "bold", size: 10.5pt, role), text(size: 9pt, fill: light-text, dates),
+      )
+      #text(size: 9pt, style: "italic", fill: light-text, location)
+      #v(3pt)
+      #text(size: 9.5pt, summary)
+    ]
+    #block(breakable: false)[
+      #v(2pt)
+      #text(size: 9pt, bullets)
+    ]
     #if tech != none {
-      v(2pt)
-      text(size: 8.5pt, fill: light-text)[*Technologies:* \ #text(style: "italic", tech)]
+      block(breakable: false)[
+        #v(2pt)
+        #text(size: 8.5pt, fill: light-text)[*Technologies:* \ #text(style: "italic", tech)]
+        #v(6pt)
+      ]
     }
-    #v(6pt)
   ]
 }
 
